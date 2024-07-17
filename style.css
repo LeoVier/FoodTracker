@@ -1,0 +1,66 @@
+#barcodeInput{
+    border-top-left-radius: 2vh;
+    border-bottom-left-radius: 2vh;
+    height: 7.5vh;
+    width: 38vh;
+    border: solid 2px rgba(0, 0, 0, 0.801);
+    border-right: solid 2px rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 2.5vh;
+    padding-left: 2vh;
+}
+body{
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Submit{
+    height: 8.125vh;
+    width: 8.125vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 2vh;
+    border-top-right-radius: 2vh;
+    border: solid 2px rgb(0, 0, 0);
+    border-left: solid 1px rgb(0, 0, 0);
+    background-color: rgb(0, 174, 255);
+}
+#search{
+    height: 4vh;
+    width: 4vh;
+}
+#input{
+    display: flex;
+    
+}
+#response{
+    margin-top: 10vh;
+    display: none;
+    position: absolute;
+    flex-direction: row-reverse;
+    margin-top: 25vh;
+    background-color: rgba(172, 172, 172, 0.164);
+    border-radius: 2vh;
+    height: 50vh;
+    width: 150vh;
+    justify-content: start;
+    
+}
+#img{
+    border-top-left-radius: 2vh;
+    border-bottom-left-radius: 2vh;
+    margin-right: 3.5vh;
+    width: 50vh;
+    object-fit: cover;
+    object-position: start;
+}
+#objects{
+    font-size: 2.25vh;
+    font-weight: 100;
+}

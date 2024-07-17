@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/vnd.icon" href="/img/fav.ico" />
+    <script src="main.js"></script>
+    <title>FoodTracker</title>
+  </head>
+  <body>
+    <div id="input">
+      <input type="text" id="barcodeInput" placeholder="Barcode eingeben" />
+      <button onclick="loadFood()" id="Submit">
+        <img src="/img/search.png" id="search" />
+      </button>
+    </div>
+    <div id="response">
+
+      <div id="objects">
+        <p id="name"></p>
+        <p id="ingredients"></p>
+        <p id="categories"></p>
+        <p id="code"></p>
+      </div>
+      <img src="" id="img" />
+    </div>
+  </body>
+</html>
